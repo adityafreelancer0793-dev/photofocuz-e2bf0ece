@@ -1,18 +1,20 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import { Link, useLocation } from "react-router-dom";
 
 const navLinks = [
-  { label: "Home", href: "#home" },
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Portfolio", href: "#portfolio" },
-  { label: "Reviews", href: "#reviews" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "/" },
+  { label: "About", href: "/about" },
+  { label: "Services", href: "/services" },
+  { label: "Portfolio", href: "/portfolio" },
+  { label: "Reviews", href: "/reviews" },
+  { label: "Contact", href: "/contact" },
 ];
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -27,19 +29,23 @@ const Navbar = () => {
       }`}
     >
       <div className="container flex items-center justify-between">
-        <a href="#home" className="font-heading text-2xl font-bold tracking-wide text-foreground">
+        <Link to="/" className="font-heading text-2xl font-bold tracking-wide text-foreground">
           Photofocuz
-        </a>
+        </Link>
 
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.href}
-              href={link.href}
-              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              to={link.href}
+              className={`text-sm font-medium transition-colors ${
+                location.pathname === link.href
+                  ? "text-foreground"
+                  : "text-muted-foreground hover:text-foreground"
+              }`}
             >
               {link.label}
-            </a>
+            </Link>
           ))}
           <a
             href="https://wa.me/917780909010"
@@ -63,14 +69,16 @@ const Navbar = () => {
       {mobileOpen && (
         <div className="md:hidden bg-background border-t border-border px-6 py-6 space-y-4">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.href}
-              href={link.href}
+              to={link.href}
               onClick={() => setMobileOpen(false)}
-              className="block text-base font-medium text-foreground"
+              className={`block text-base font-medium ${
+                location.pathname === link.href ? "text-foreground" : "text-muted-foreground"
+              }`}
             >
               {link.label}
-            </a>
+            </Link>
           ))}
           <a
             href="https://wa.me/917780909010"

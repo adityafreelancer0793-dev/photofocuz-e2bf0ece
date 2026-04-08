@@ -1,3 +1,14 @@
+import { Link } from "react-router-dom";
+
+const quickLinks = [
+  { label: "Home", href: "/" },
+  { label: "About", href: "/about" },
+  { label: "Services", href: "/services" },
+  { label: "Portfolio", href: "/portfolio" },
+  { label: "Reviews", href: "/reviews" },
+  { label: "Contact", href: "/contact" },
+];
+
 const Footer = () => {
   return (
     <footer className="bg-foreground py-16">
@@ -13,14 +24,14 @@ const Footer = () => {
           <div>
             <p className="font-heading font-semibold text-background mb-4">Quick Links</p>
             <div className="space-y-3">
-              {["Home", "About", "Services", "Portfolio", "Reviews", "Contact"].map((l) => (
-                <a
-                  key={l}
-                  href={`#${l.toLowerCase()}`}
+              {quickLinks.map((l) => (
+                <Link
+                  key={l.href}
+                  to={l.href}
                   className="block text-sm text-background/60 hover:text-background transition-colors"
                 >
-                  {l}
-                </a>
+                  {l.label}
+                </Link>
               ))}
             </div>
           </div>
