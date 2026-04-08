@@ -9,7 +9,7 @@ import p8 from "@/assets/portfolio-8.jpg";
 import p9 from "@/assets/portfolio-9.jpg";
 import p10 from "@/assets/portfolio-10.jpg";
 
-const images = [
+const allImages = [
   { src: p1, alt: "Elegant couple in traditional Indian wedding attire - red lehenga and black sherwani", tall: true },
   { src: p2, alt: "Bride in red bridal lehenga on beach with groom in white sherwani", tall: false },
   { src: p3, alt: "Bridal portrait - bride in red embroidered lehenga with gold jewelry", tall: true },
@@ -22,7 +22,14 @@ const images = [
   { src: p10, alt: "Romantic close-up of couple in white wedding attire", tall: false },
 ];
 
-const PortfolioSection = () => {
+interface PortfolioSectionProps {
+  limit?: number;
+  showViewAll?: boolean;
+}
+
+const PortfolioSection = ({ limit, showViewAll = false }: PortfolioSectionProps) => {
+  const images = limit ? allImages.slice(0, limit) : allImages;
+
   return (
     <section id="portfolio" className="py-24 bg-background">
       <div className="container">
@@ -52,6 +59,17 @@ const PortfolioSection = () => {
             </div>
           ))}
         </div>
+
+        {showViewAll && (
+          <div className="text-center mt-12">
+            <a
+              href="/portfolio"
+              className="rounded-full bg-foreground px-8 py-3.5 text-base font-medium text-background transition-all hover:opacity-90 inline-block"
+            >
+              View All Photos
+            </a>
+          </div>
+        )}
       </div>
     </section>
   );

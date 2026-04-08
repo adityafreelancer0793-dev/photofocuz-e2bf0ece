@@ -23,7 +23,7 @@ const Index = () => {
       <HeroSection />
       <AboutSection />
       <ServicesSection />
-      <PortfolioSection />
+      <PortfolioSection limit={5} showViewAll />
       <ReviewsSection />
       <ContactSection />
       <Footer />
