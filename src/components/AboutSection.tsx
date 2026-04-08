@@ -1,4 +1,4 @@
-import aboutImg from "@/assets/photofocuz-logo.jpg";
+import aboutImg from "@/assets/portfolio-9.jpg";
 
 const stats = [
   { value: "7+", label: "Years Experience" },
