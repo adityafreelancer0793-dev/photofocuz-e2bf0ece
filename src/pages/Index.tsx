@@ -10,10 +10,10 @@ import { useEffect } from "react";
 
 const Index = () => {
   useEffect(() => {
-    document.title = "Photofocuz Wedding Photographer Mangaluru | Wedding Photography India";
+    document.title = "Photo Focuz | Wedding Photography India | 4.9 Rated";
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) {
-      metaDesc.setAttribute("content", "Photofocuz provides premium wedding photography and cinematography services in Mangaluru and across India. 7+ years experience with 4.9 rating.");
+      metaDesc.setAttribute("content", "Photo Focuz provides premium wedding photography and cinematography services in Mangaluru and across India. 7+ years experience with 4.9 rating.");
     }
   }, []);
 
