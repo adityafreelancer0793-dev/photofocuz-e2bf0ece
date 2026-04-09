@@ -8,6 +8,16 @@ import p7 from "@/assets/portfolio-7.jpg";
 import p8 from "@/assets/portfolio-8.jpg";
 import p9 from "@/assets/portfolio-9.jpg";
 import p10 from "@/assets/portfolio-10.jpg";
+import p11 from "@/assets/portfolio-11.jpg";
+import p12 from "@/assets/portfolio-12.jpg";
+import p13 from "@/assets/portfolio-13.jpg";
+import p14 from "@/assets/portfolio-14.jpg";
+import p15 from "@/assets/portfolio-15.jpg";
+import p16 from "@/assets/portfolio-16.jpg";
+import p17 from "@/assets/portfolio-17.jpg";
+import p18 from "@/assets/portfolio-18.jpg";
+import p19 from "@/assets/portfolio-19.jpg";
+import p20 from "@/assets/portfolio-20.jpg";
 
 const allImages = [
   { src: p1, alt: "Elegant couple in traditional Indian wedding attire - red lehenga and black sherwani", tall: true },
@@ -20,6 +30,16 @@ const allImages = [
   { src: p8, alt: "Bride in ornate maroon lehenga on staircase", tall: true },
   { src: p9, alt: "Golden hour candid portrait of bride and groom", tall: false },
   { src: p10, alt: "Romantic close-up of couple in white wedding attire", tall: false },
+  { src: p11, alt: "Beautiful sisters in traditional bridal attire - sisterhood moment", tall: true },
+  { src: p12, alt: "Candid bridal portrait - bride smiling in embellished gown", tall: true },
+  { src: p13, alt: "Bridal jewelry close-up - elegant diamond earring and necklace", tall: true },
+  { src: p14, alt: "Couple walking together at luxury venue with circular mirrors", tall: true },
+  { src: p15, alt: "Romantic couple on staircase - groom in black sherwani bride in gold lehenga", tall: true },
+  { src: p16, alt: "Couple holding hands at traditional Indian wedding ceremony", tall: true },
+  { src: p17, alt: "Pre-wedding couple portrait at white archway monument", tall: true },
+  { src: p18, alt: "Joyful couple laughing on beach - candid pre-wedding shoot", tall: true },
+  { src: p19, alt: "Groom and bride in red bridal attire with motion blur creative shot", tall: false },
+  { src: p20, alt: "Couple walking in garden - bride in red lehenga groom in white sherwani", tall: false },
 ];
 
 interface PortfolioSectionProps {

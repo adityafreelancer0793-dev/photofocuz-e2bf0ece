@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 const AboutPage = () => {
   useEffect(() => {
-    document.title = "About Us | Photofocuz Wedding Photography";
+    document.title = "About Photo Focuz | Wedding Photography India";
   }, []);
 
   return (

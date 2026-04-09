@@ -1,3 +1,5 @@
+import { Globe } from "lucide-react";
+
 const HeroSection = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center bg-background pt-20">
@@ -8,7 +10,7 @@ const HeroSection = () => {
             <span className="text-muted-foreground text-sm">• 37 Google Reviews</span>
           </div>
           <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-foreground">
-            Capturing Your <span className="text-primary italic">Forever</span> Moments
+            Capturing the <span className="text-primary italic">Special Moments</span> of Your Special Day
           </h1>
           <p className="text-lg text-muted-foreground max-w-xl mx-auto leading-relaxed">
             Premium wedding photography & cinematography services across India and worldwide. 7+ years of crafting timeless memories.
@@ -27,7 +29,7 @@ const HeroSection = () => {
               Contact Us
             </a>
           </div>
-          <div className="flex justify-center gap-8 pt-4">
+          <div className="flex flex-wrap justify-center gap-6 sm:gap-8 pt-4">
             <div className="text-center">
               <p className="font-heading text-3xl font-bold text-foreground">7+</p>
               <p className="text-sm text-muted-foreground">Years Experience</p>
@@ -39,6 +41,17 @@ const HeroSection = () => {
             <div className="text-center">
               <p className="font-heading text-3xl font-bold text-foreground">4.9</p>
               <p className="text-sm text-muted-foreground">Rating</p>
+            </div>
+            <div className="text-center">
+              <p className="font-heading text-3xl font-bold text-foreground">37+</p>
+              <p className="text-sm text-muted-foreground">5-Star Reviews</p>
+            </div>
+            <div className="text-center">
+              <div className="flex items-center justify-center gap-1">
+                <Globe size={20} className="text-primary" />
+                <p className="font-heading text-3xl font-bold text-foreground">11+</p>
+              </div>
+              <p className="text-sm text-muted-foreground">Countries Covered</p>
             </div>
           </div>
         </div>
