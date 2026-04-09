@@ -1,4 +1,4 @@
-import { Globe } from "lucide-react";
+
 
 const HeroSection = () => {
   return (
@@ -29,31 +29,7 @@ const HeroSection = () => {
               Contact Us
             </a>
           </div>
-          <div className="flex flex-wrap justify-center gap-6 sm:gap-8 pt-4">
-            <div className="text-center">
-              <p className="font-heading text-3xl font-bold text-foreground">7+</p>
-              <p className="text-sm text-muted-foreground">Years Experience</p>
-            </div>
-            <div className="text-center">
-              <p className="font-heading text-3xl font-bold text-foreground">500+</p>
-              <p className="text-sm text-muted-foreground">Weddings</p>
-            </div>
-            <div className="text-center">
-              <p className="font-heading text-3xl font-bold text-foreground">4.9</p>
-              <p className="text-sm text-muted-foreground">Rating</p>
-            </div>
-            <div className="text-center">
-              <p className="font-heading text-3xl font-bold text-foreground">37+</p>
-              <p className="text-sm text-muted-foreground">5-Star Reviews</p>
-            </div>
-            <div className="text-center">
-              <div className="flex items-center justify-center gap-1">
-                <Globe size={20} className="text-primary" />
-                <p className="font-heading text-3xl font-bold text-foreground">11+</p>
-              </div>
-              <p className="text-sm text-muted-foreground">Countries Covered</p>
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>
