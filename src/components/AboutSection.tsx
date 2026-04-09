@@ -5,6 +5,7 @@ const stats = [
   { value: "500+", label: "Weddings Covered" },
   { value: "4.9", label: "Google Rating" },
   { value: "37+", label: "5-Star Reviews" },
+  { value: "11+", label: "Countries Covered" },
 ];
 
 const AboutSection = () => {
