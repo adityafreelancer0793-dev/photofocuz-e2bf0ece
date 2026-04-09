@@ -1,5 +1,7 @@
 
 
+import { Link } from "react-router-dom";
+
 const HeroSection = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center bg-background pt-20">
@@ -16,20 +18,19 @@ const HeroSection = () => {
             Premium wedding photography & cinematography services across India and worldwide. 7+ years of crafting timeless memories.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <a
-              href="/portfolio"
+            <Link
+              to="/portfolio"
               className="rounded-full bg-foreground px-8 py-3.5 text-base font-medium text-background transition-all hover:opacity-90"
             >
               View Portfolio
-            </a>
-            <a
-              href="/contact"
+            </Link>
+            <Link
+              to="/contact"
               className="rounded-full border-2 border-foreground px-8 py-3.5 text-base font-medium text-foreground transition-all hover:bg-foreground hover:text-background"
             >
               Contact Us
-            </a>
+            </Link>
           </div>
-          
         </div>
       </div>
     </section>
