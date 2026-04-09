@@ -1,4 +1,4 @@
-import { Globe } from "lucide-react";
+
 
 const HeroSection = () => {
   return (
