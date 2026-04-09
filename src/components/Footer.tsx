@@ -28,6 +28,7 @@ const Footer = () => {
                 <Link
                   key={l.href}
                   to={l.href}
+                  onClick={() => window.scrollTo(0, 0)}
                   className="block text-sm text-background/60 hover:text-background transition-colors"
                 >
                   {l.label}
