@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 const ContactPage = () => {
   useEffect(() => {
-    document.title = "Contact Us | Photofocuz Wedding Photography";
+    document.title = "Contact Photo Focuz | Wedding Photographer India";
   }, []);
 
   return (

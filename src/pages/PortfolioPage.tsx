@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 const PortfolioPage = () => {
   useEffect(() => {
-    document.title = "Portfolio | Photofocuz Wedding Photography";
+    document.title = "Wedding Portfolio India | Photo Focuz";
   }, []);
 
   return (

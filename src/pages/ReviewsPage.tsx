@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 const ReviewsPage = () => {
   useEffect(() => {
-    document.title = "Reviews | Photofocuz Wedding Photography";
+    document.title = "Client Reviews | Photo Focuz Wedding Photography";
   }, []);
 
   return (
