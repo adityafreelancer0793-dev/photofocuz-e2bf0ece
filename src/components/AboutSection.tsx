@@ -36,7 +36,7 @@ const AboutSection = () => {
             emotions, fine details, and beautiful moments that make your wedding day truly unforgettable.
           </p>
 
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
             {stats.map((stat) => (
               <div key={stat.label} className="rounded-xl bg-secondary p-6">
                 <p className="font-heading text-3xl font-bold text-foreground">{stat.value}</p>
