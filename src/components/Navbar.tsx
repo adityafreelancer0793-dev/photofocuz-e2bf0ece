@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -25,12 +26,12 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-background/95 backdrop-blur-md shadow-card py-3" : "bg-transparent py-5"
+        scrolled ? "bg-background/95 backdrop-blur-md shadow-card py-2" : "bg-transparent py-3"
       }`}
     >
       <div className="container flex items-center justify-between">
-        <Link to="/" className="font-heading text-2xl font-bold tracking-wide text-foreground">
-          Photofocuz
+        <Link to="/" className="flex-shrink-0">
+          <img src={logo} alt="Photo Focuz" className="h-10 md:h-12 w-auto" />
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
