@@ -36,7 +36,7 @@ const Footer = () => {
         <div className="grid sm:grid-cols-3 gap-12 mb-12">
           <div>
             <div className="mb-4">
-              <img src={logo} alt="Photo Focuz" className="h-10 w-auto brightness-0 invert" />
+              <img src={logo} alt="Photo Focuz" className="h-10 w-auto invert mix-blend-screen" />
             </div>
             <p className="text-background/60 text-sm leading-relaxed">
               Premium wedding photography & cinematography services across India and worldwide.
