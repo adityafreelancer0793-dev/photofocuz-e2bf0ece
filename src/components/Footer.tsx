@@ -78,9 +78,20 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-background/10 pt-8 text-center">
+        <div className="border-t border-background/10 pt-8 text-center space-y-2">
           <p className="text-background/40 text-sm">
             © {new Date().getFullYear()} Photo Focuz. All rights reserved.
+          </p>
+          <p className="text-background/40 text-xs sm:text-sm">
+            Made by{" "}
+            <a
+              href="https://wa.me/919337166103"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-background/60 hover:text-background transition-colors underline"
+            >
+              Aditya
+            </a>
           </p>
         </div>
       </div>
