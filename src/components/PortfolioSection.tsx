@@ -59,6 +59,13 @@ const allImages = [
   { src: p23, alt: "Romantic couple portrait at Heydar Aliyev Center Baku Azerbaijan", tall: false },
   { src: p24, alt: "Silhouette couple portrait with LOVE text - creative wedding photography", tall: true },
   { src: p25, alt: "Couple walking at Heydar Aliyev Center modern architecture backdrop", tall: false },
+  { src: p26, alt: "Romantic couple embrace in snowy winter wonderland", tall: false },
+  { src: p27, alt: "Couple posing together in snowy pine tree landscape", tall: true },
+  { src: p28, alt: "Traditional Indian wedding ceremony - couple performing rituals", tall: false },
+  { src: p29, alt: "South Indian wedding couple with floral garlands and traditional attire", tall: false },
+  { src: p30, alt: "Couple at modern white spiral staircase - artistic portrait", tall: true },
+  { src: p31, alt: "Joyful couple laughing at snowy mountain location", tall: false },
+  { src: p32, alt: "Couple walking at modern Dubai architecture with palm trees", tall: false },
 ];
 
 interface PortfolioSectionProps {
