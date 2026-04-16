@@ -25,6 +25,13 @@ import p22 from "@/assets/portfolio-22.jpg";
 import p23 from "@/assets/portfolio-23.jpg";
 import p24 from "@/assets/portfolio-24.jpg";
 import p25 from "@/assets/portfolio-25.jpg";
+import p26 from "@/assets/portfolio-26.jpg";
+import p27 from "@/assets/portfolio-27.jpg";
+import p28 from "@/assets/portfolio-28.jpg";
+import p29 from "@/assets/portfolio-29.jpg";
+import p30 from "@/assets/portfolio-30.jpg";
+import p31 from "@/assets/portfolio-31.jpg";
+import p32 from "@/assets/portfolio-32.jpg";
 
 const allImages = [
   { src: p1, alt: "Elegant couple in traditional Indian wedding attire - red lehenga and black sherwani", tall: true },
@@ -52,6 +59,13 @@ const allImages = [
   { src: p23, alt: "Romantic couple portrait at Heydar Aliyev Center Baku Azerbaijan", tall: false },
   { src: p24, alt: "Silhouette couple portrait with LOVE text - creative wedding photography", tall: true },
   { src: p25, alt: "Couple walking at Heydar Aliyev Center modern architecture backdrop", tall: false },
+  { src: p26, alt: "Romantic couple embrace in snowy winter wonderland", tall: false },
+  { src: p27, alt: "Couple posing together in snowy pine tree landscape", tall: true },
+  { src: p28, alt: "Traditional Indian wedding ceremony - couple performing rituals", tall: false },
+  { src: p29, alt: "South Indian wedding couple with floral garlands and traditional attire", tall: false },
+  { src: p30, alt: "Couple at modern white spiral staircase - artistic portrait", tall: true },
+  { src: p31, alt: "Joyful couple laughing at snowy mountain location", tall: false },
+  { src: p32, alt: "Couple walking at modern Dubai architecture with palm trees", tall: false },
 ];
 
 interface PortfolioSectionProps {
