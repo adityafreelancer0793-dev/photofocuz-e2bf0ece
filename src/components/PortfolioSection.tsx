@@ -20,6 +20,11 @@ import p17 from "@/assets/portfolio-17.jpg";
 import p18 from "@/assets/portfolio-18.jpg";
 import p19 from "@/assets/portfolio-19.jpg";
 import p20 from "@/assets/portfolio-20.jpg";
+import p21 from "@/assets/portfolio-21.jpg";
+import p22 from "@/assets/portfolio-22.jpg";
+import p23 from "@/assets/portfolio-23.jpg";
+import p24 from "@/assets/portfolio-24.jpg";
+import p25 from "@/assets/portfolio-25.jpg";
 
 const allImages = [
   { src: p1, alt: "Elegant couple in traditional Indian wedding attire - red lehenga and black sherwani", tall: true },
