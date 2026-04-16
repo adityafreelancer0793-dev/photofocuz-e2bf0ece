@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import p1 from "@/assets/portfolio-1.jpg";
 import p2 from "@/assets/portfolio-2.jpg";
 import p3 from "@/assets/portfolio-3.jpg";
@@ -82,12 +84,13 @@ const PortfolioSection = ({ limit, showViewAll = false }: PortfolioSectionProps)
 
         {showViewAll && (
           <div className="text-center mt-12">
-            <a
-              href="/portfolio"
+            <Link
+              to="/portfolio"
+              onClick={() => window.scrollTo(0, 0)}
               className="rounded-full bg-foreground px-8 py-3.5 text-base font-medium text-background transition-all hover:opacity-90 inline-block"
             >
               View All Photos
-            </a>
+            </Link>
           </div>
         )}
       </div>
