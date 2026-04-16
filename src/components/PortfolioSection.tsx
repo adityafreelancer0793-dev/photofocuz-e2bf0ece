@@ -20,6 +20,11 @@ import p17 from "@/assets/portfolio-17.jpg";
 import p18 from "@/assets/portfolio-18.jpg";
 import p19 from "@/assets/portfolio-19.jpg";
 import p20 from "@/assets/portfolio-20.jpg";
+import p21 from "@/assets/portfolio-21.jpg";
+import p22 from "@/assets/portfolio-22.jpg";
+import p23 from "@/assets/portfolio-23.jpg";
+import p24 from "@/assets/portfolio-24.jpg";
+import p25 from "@/assets/portfolio-25.jpg";
 
 const allImages = [
   { src: p1, alt: "Elegant couple in traditional Indian wedding attire - red lehenga and black sherwani", tall: true },
@@ -42,6 +47,11 @@ const allImages = [
   { src: p18, alt: "Joyful couple laughing on beach - candid pre-wedding shoot", tall: true },
   { src: p19, alt: "Groom and bride in red bridal attire with motion blur creative shot", tall: false },
   { src: p20, alt: "Couple walking in garden - bride in red lehenga groom in white sherwani", tall: false },
+  { src: p21, alt: "Elegant bride in ornate red bridal lehenga with gold embroidery and jewelry", tall: true },
+  { src: p22, alt: "Couple holding hands at Petronas Twin Towers Kuala Lumpur", tall: true },
+  { src: p23, alt: "Romantic couple portrait at Heydar Aliyev Center Baku Azerbaijan", tall: false },
+  { src: p24, alt: "Silhouette couple portrait with LOVE text - creative wedding photography", tall: true },
+  { src: p25, alt: "Couple walking at Heydar Aliyev Center modern architecture backdrop", tall: false },
 ];
 
 interface PortfolioSectionProps {
